@@ -24,7 +24,7 @@ h1,h2,p,td.content{letter-spacing:-.01em}
 p strong,td.content strong{letter-spacing:-.005em}
 p,dt,td.content,td.hdlist1{font-size:1.0625rem}
 
-#logbookTable {
+.schoolTable {
     display: flex;
     justify-self: center;
     width: 80%;
@@ -36,9 +36,24 @@ p,dt,td.content,td.hdlist1{font-size:1.0625rem}
     justify-self: center;
     justify-content: end;
     width: 80%;
-    height: 20vh;
+    margin-top: 60px;
 }
 
 #logbookIntro h1, #logbookIntro p {
     margin: 5px;
+}
+
+nav, .title {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6A6A55;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+a {
+    color:#FFFBDD;
+    font-family:"Bahnschrift light","Noto Serif","DejaVu Serif",serif;
+    text-decoration: none;
 }
