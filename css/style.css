@@ -24,6 +24,10 @@ h1,h2,p,td.content{letter-spacing:-.01em}
 p strong,td.content strong{letter-spacing:-.005em}
 p,dt,td.content,td.hdlist1{font-size:1.0625rem}
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .schoolTable {
     display: flex;
     justify-self: center;
@@ -56,4 +60,35 @@ a {
     color:#FFFBDD;
     font-family:"Bahnschrift light","Noto Serif","DejaVu Serif",serif;
     text-decoration: none;
+}
+
+article h2, article div {
+    background-color: #7C7C63;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+article h2 {
+    margin: 20px 20px 10px 20px;
+    cursor: pointer;
+}
+
+article h2:hover {
+    box-shadow: 2px 2px #6A6A55;
+}
+
+article div {
+    margin: 0px 20px 20px 20px;
+    text-align: justify;
+}
+
+.rightAlignment {
+    justify-items: flex-end;
+}
+
+.hideElement {
+    display: none;
 }
