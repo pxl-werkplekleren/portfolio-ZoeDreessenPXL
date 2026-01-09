@@ -34,12 +34,26 @@ p,dt,td.content,td.hdlist1{font-size:1.0625rem}
     width: 80%;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     background-color: #6A6A55;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #7C7C63;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h3 {
+    width: 80%;
+    margin: 20px 20px 10px 20px;
+    font-size: x-large;
 }
 
 nav, footer {
@@ -91,4 +105,18 @@ article div {
 
 .hideElement {
     display: none;
+}
+
+.profileText {
+    margin: 0px 20px 20px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #6A6A55;
+    width: 80%;
+    text-align: justify;
+}
+
+#evolutionIntro {
+    margin: 20px;
+    text-align: justify;
 }
