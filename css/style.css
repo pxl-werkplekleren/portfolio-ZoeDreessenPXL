@@ -9,7 +9,7 @@ body{background:#A3A380;color:#FFFBDD;padding:0;margin:0;font-family:"Bahnschrif
 p{line-height:1.6;text-rendering:optimizeLegibility}
 h1,h2,h3{font-family: "Impact","Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#FFFBDD;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
 ul,ol{margin-left:1.5em}
-table{background:#7C7C63;margin-bottom:1.25em;word-wrap:normal}
+table{background:#7C7C63;margin-bottom:10px;word-wrap:normal}
 table thead,table tfoot{background:#6A6A55;}
 table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:#FFFBDD;text-align:left}
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:#FFFBDD}
@@ -73,6 +73,7 @@ nav {
 
 footer {
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 a {
@@ -106,6 +107,14 @@ article div {
 
 .rightAlignment {
     justify-items: flex-end;
+}
+
+.centerAlignment {
+    justify-self: center;
+}
+
+.textCenter {
+    text-align: center;
 }
 
 .hideElement {
