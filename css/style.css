@@ -3,10 +3,10 @@
 /* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
 html{font-family:sans-serif;-webkit-text-size-adjust:100%}
 table{border-collapse:collapse;border-spacing:0}
-*{box-sizing:border-box;margin:0;padding:0}
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior: smooth;}
 html,body{font-size:100%}
 body{background:#A3A380;color:#FFFBDD;padding:0;margin:0;font-family:"Bahnschrift light","Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
-p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p{line-height:1.6;text-rendering:optimizeLegibility}
 h1,h2,h3{font-family: "Impact","Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#FFFBDD;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
 ul,ol{margin-left:1.5em}
 table{background:#7C7C63;margin-bottom:1.25em;word-wrap:normal}
@@ -34,26 +34,26 @@ p,dt,td.content,td.hdlist1{font-size:1.0625rem}
     width: 80%;
 }
 
-#logbookIntro {
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    justify-content: end;
-    width: 80%;
-    margin-top: 60px;
-}
-
-#logbookIntro h1, #logbookIntro p {
-    margin: 5px;
-}
-
-nav, .title {
-    display: flex;
-    justify-content: space-around;
+h1 {
+    text-align: center;
     background-color: #6A6A55;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+}
+
+nav, footer {
+    display: flex;
+    background-color: #9b9b7c;
+    padding: 20px;
+}
+
+nav {
+    justify-content: space-around;
+}
+
+footer {
+    justify-content: space-between;
 }
 
 a {
