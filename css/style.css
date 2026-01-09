@@ -42,12 +42,17 @@ h1, .title {
     border-radius: 10px;
 }
 
-h2 {
+h2, #introductionText {
     text-align: center;
     background-color: #7C7C63;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+}
+
+#introductionText p {
+    text-align: justify;
+    margin-bottom: 15px;
 }
 
 .title {
